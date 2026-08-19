@@ -135,8 +135,7 @@ Attrition
 
 Before training the model, the distribution of the target variable was analyzed.
 
-![Attrition Distribution](images/attrition_distribution.png)
-
+![Attrition Distribution](screenshots/attrition_distribution.png)
 The dataset contains more employees who stayed than employees who left.
 
 This creates a **class imbalance**, which is important to consider when evaluating the model.
@@ -190,7 +189,7 @@ Employee_Attrition_Logistic_Regression/
 
 ### Project Structure Screenshot
 
-![Project Structure](images/project_structure.png)
+![Project Structure](screenshots/project_structure.png)
 
 ---
 
@@ -341,8 +340,8 @@ True Positive  = 16
 
 The confusion matrix shows how well the model classified employees into the two classes.
 
-![Confusion Matrix](images/confusion_matrix_original.png)
 
+![Confusion Matrix](screenshots/confusion_matrix_original.png)
 ### Interpretation
 
 * **True Negative (TN):** Employee stayed and model predicted stay.
@@ -411,7 +410,7 @@ Final confusion matrix:
 
 The ROC curve is used to evaluate the model's ability to distinguish between employees who stay and employees who leave.
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](screenshots/roc_curve.png)
 
 The model achieved:
 
@@ -493,7 +492,7 @@ The application allows users to enter employee information and receive an attrit
 
 The user can enter employee-related information through the Streamlit interface.
 
-![Streamlit Input](images/streamlit_input.png)
+![Streamlit Input](screenshots/streamlit_input.png)
 
 ---
 
@@ -501,7 +500,7 @@ The user can enter employee-related information through the Streamlit interface.
 
 After entering the employee information, the application processes the input and generates the employee attrition prediction.
 
-![Streamlit Prediction](images/streamlit_prediction.png)
+![Streamlit Prediction](screenshots/streamlit_prediction.png)
 
 ---
 
